@@ -1,0 +1,58 @@
+.container_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.6rem 1rem;
+}
+
+.btn_navigation {
+  background: #fefbec;
+  font-weight: 600;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin: 0 0.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.btn_navigation:hover {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.container_btn {
+  text-align: center;
+  padding: 0.7rem;
+}
+
+/* Estilos para pantallas más pequeñas (menos de 468px) */
+@media (max-width: 467px) {
+  .btn_navigation:first-child:before {
+    content: "Presupuestos";
+  }
+  .container_navigation{
+    flex-direction: column;
+  }
+  .container_btn{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn_navigation{
+    margin: .4rem 0;
+  }
+}
+
+/* Estilos para pantallas más grandes (468px o más) */
+@media (min-width: 468px) {
+  .btn_navigation:first-child:before {
+    content: "Solicitar Presupuesto";
+  }
+}
