@@ -21,5 +21,6 @@
 @media (max-width: 768px) {
   .container_footer {
     grid-template-columns: 1fr;
+    z-index: 4;
   }
 }
