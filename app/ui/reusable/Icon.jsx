@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 
-const Icon = ({ alt, src, className, width, height }) => {
+const Icon = ({ alt, src, className, width, height, sizes }) => {
   return (
     <Image
       src={src}
@@ -10,6 +10,7 @@ const Icon = ({ alt, src, className, width, height }) => {
       width={width}
       height={height}
       className={className}
+      sizes={sizes}
     />
   );
 };
