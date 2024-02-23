@@ -40,10 +40,5 @@ export const images = {
       src: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707929389/landing_page_herreria/315851168_3228778357374544_2668819445632425510_n_bz1zl3.jpg",
       alt: "image_herreria_8",
     },
-    {
-      id: 9,
-      src: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707327740/landing_page_herreria/1_2_uaio8j.jpg",
-      alt: "image_herreria_9",
-    },
   ],
 };
