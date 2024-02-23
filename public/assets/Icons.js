@@ -1,14 +1,15 @@
 const facebook =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707327271/landing_page_herreria/facebook_xq2neg.webp";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708696356/landing_page_herreria/facebook_ilzwea.webp";
 const instagram =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707327272/landing_page_herreria/instagram_skqm7p.webp";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708696405/landing_page_herreria/instagram_ot0b9i.webp";
 const location =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708092916/landing_page_herreria/location-svgrepo-com_xeav6y.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708696363/landing_page_herreria/location_jmpivs.webp";
 const wsp =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707327277/landing_page_herreria/whatsapp_xpifnb.webp";
 const working =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708093284/landing_page_herreria/working2_khyuwl.svg";
-
+const email =
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708696405/landing_page_herreria/email_lpaxvo.webp";
 const check =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708093370/landing_page_herreria/check_y7qciw.svg";
 
@@ -29,9 +30,11 @@ const logo =
 
 export {
   instagram,
-  facebook,logo,
+  facebook,
+  logo,
   location,
   wsp,
+  email,
   working,
   check,
   ctaDNI,

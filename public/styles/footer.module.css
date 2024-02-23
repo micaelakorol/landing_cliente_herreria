@@ -8,9 +8,8 @@
   color: #546e7a;
   font-size: 0.88rem;
 }
-
-.container_footer a{
-  margin-right: .3rem;
+.section_footer {
+  margin: 0.5rem 0.7rem;
 }
 
 .container_footer img {
@@ -23,7 +22,18 @@
 }
 
 @media (max-width: 768px) {
-  .container_footer {
+  .container_footer{
+    grid-template-columns: 1fr 1fr;
+  }
+  .section_footer a {
+    font-size: 0.77rem;
+  }
+  .section_footer p {
+    font-size: 0.77rem;
+  }
+}
+@media (max-width: 400px) {
+  .container_footer{
     grid-template-columns: 1fr;
   }
 }

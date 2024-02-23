@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 55% 45%;
   place-items: center;
-  margin: 5% 0 3% 0;
+  margin: 3% 0 3% 0;
 }
 
 .welcome_title {
@@ -49,27 +49,10 @@
   cursor: pointer;
 }
 .aboutHerreria {
-  margin: 1rem;
+  margin: .5rem 1rem;
+  padding: 1rem;
 }
 
-/*SOCIAL ICONS*/
-.social_container img {
-  width: 21px;
-  height: 21px;
-  margin: 0.6rem 0.5rem;
-}
-
-.social_container {
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
-}
-
-.social_container p {
-  color: #656565;
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
-}
 
 @media (max-width: 1024px) {
   .container_presentation {

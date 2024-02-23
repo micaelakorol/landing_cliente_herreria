@@ -1,10 +1,10 @@
 import Icon from "@/app/ui/reusable/Icon";
-import Image from "next/image";
+import style from '../../../../../public/styles/footer.module.css'
 import React from "react";
 
 const PaymentMethod = () => {
   return (
-    <section>
+    <section className={style.section_footer}>
       <p>Todos los medios de pago</p>
       <Icon
         src="https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707924669/landing_page_herreria/cuentadni_tqybuu.svg"
