@@ -12,8 +12,8 @@
 }
 
 .welcome_title span {
-  color: #f1b604;
-  filter: contrast(130%);
+  color: var(--yellow);
+  background: var(--background);
 }
 
 .btn_work {
@@ -25,16 +25,14 @@
   letter-spacing: 0.5px;
   font-size: 0.83rem;
   cursor: pointer;
-  color: #fff;
-  background-color: #2d2d2a;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: var(--white);
+  background-color: var(--yellow);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .btn_work:hover {
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: var(--bgDarkButton);
 }
 
 .subtitle {

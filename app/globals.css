@@ -2,8 +2,8 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: auto;
-  background-color: #FEFDF9;
-  color: #263238;
+  background-color: #FAFAFA;
+  color: #0e0e0e;
   overflow-x: hidden;
 }
 
@@ -14,4 +14,16 @@
 
 html, body {
   scroll-behavior: smooth;
+}
+
+:root{
+
+  --dark: #0e0e0e;
+  --background: #FAFAFA;
+  --border: #eaeaea;
+  --linkFoter: #546e7a;
+  --yellow: #f1b604;
+  --white: #ffffff;
+  --bgDarkButton:#2d2d2a
+
 }

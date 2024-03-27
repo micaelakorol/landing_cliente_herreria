@@ -5,15 +5,15 @@ import { services } from "@/app/lib/dataServices";
 const Cards = () => {
   const service = services.item;
   return (
-      <ul className={card.card_container_service}>
+      <section className={card.card_container_service}>
         {service.map((item) => (
-          <li key={item.id}>
+          <div key={item.id}>
             <IconCheck />
             <h3>{item.title}</h3>
             <p>{item.description}</p>
-          </li>
+          </div>
         ))}
-      </ul>
+      </section>
   );
 };
 

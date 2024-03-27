@@ -9,18 +9,19 @@
 }
 
 .btn_navigation {
-  background: #fefbec;
+  background: var(--background);
   font-weight: 600;
+  letter-spacing: 0.2px;
   border: none;
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 0.8rem;
   text-decoration: none;
-  text-transform: uppercase;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
   border-radius: 0.4rem;
   cursor: pointer;
   margin: 0 0.6rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: inherit;
   font-size: 0.8rem;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 .btn_navigation:hover {
@@ -38,15 +39,15 @@
   .btn_navigation:first-child:before {
     content: "Presupuestos";
   }
-  .container_navigation{
+  .container_navigation {
     flex-direction: column;
   }
-  .container_btn{
+  .container_btn {
     display: flex;
     flex-direction: column;
   }
-  .btn_navigation{
-    margin: .4rem 0;
+  .btn_navigation {
+    margin: 0.4rem 0;
   }
 }
 
