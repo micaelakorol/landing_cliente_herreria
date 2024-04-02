@@ -1,8 +1,8 @@
-import { DM_Sans } from "next/font/google";
+import { DM_Sans, Quicksand } from "next/font/google";
 import "./globals.css";
 import { logo } from "@/public/assets/Icons";
 
-const dm_sans = DM_Sans({
+const inter = Quicksand({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href={logo} />
       </head>
       <html lang="es">
-        <body className={dm_sans.className}>{children}</body>
+        <body className={inter.className}>{children}</body>
       </html>
     </>
   );

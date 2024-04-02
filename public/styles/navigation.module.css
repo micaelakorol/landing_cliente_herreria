@@ -13,20 +13,19 @@
   font-weight: 600;
   letter-spacing: 0.2px;
   border: none;
-  padding: 0.6rem 0.8rem;
+  padding: 0.5rem 0.7rem;
   text-decoration: none;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-  border-radius: 0.4rem;
+  border-radius: 0.6rem;
   cursor: pointer;
   margin: 0 0.6rem;
   font-family: inherit;
-  font-size: 0.8rem;
+  font-size: 0.88rem;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+  rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
 .btn_navigation:hover {
-  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
-    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  box-shadow: none;
 }
 
 .container_btn {
