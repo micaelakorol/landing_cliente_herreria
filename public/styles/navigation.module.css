@@ -44,6 +44,7 @@
   .container_btn {
     display: flex;
     flex-direction: column;
+    width: 80%;
   }
   .btn_navigation {
     margin: 0.4rem 0;
@@ -54,5 +55,5 @@
 @media (min-width: 468px) {
   .btn_navigation:first-child:before {
     content: "Solicitar Presupuesto";
-  }
+}
 }

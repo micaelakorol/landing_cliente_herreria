@@ -1,4 +1,4 @@
-import { DM_Sans, Quicksand } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 import { logo } from "@/public/assets/Icons";
 

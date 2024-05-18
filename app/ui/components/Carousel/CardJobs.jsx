@@ -10,7 +10,7 @@ const CardJobs = () => {
   return (
     <Element name="jobs">
       <h3 className={style.title_card}>
-        Conocé algunos de nuestros trabajos realizados{" "}
+        Nuestros trabajos destacados 
       </h3>
       <section className={style.container_card}>
         {image.map((item) => (
