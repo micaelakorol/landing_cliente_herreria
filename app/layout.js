@@ -1,8 +1,8 @@
-import { Quicksand } from "next/font/google";
+import { Onest } from "next/font/google";
 import "./globals.css";
 import { logo } from "@/public/assets/Icons";
 
-const inter = Quicksand({
+const inter = Onest({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });

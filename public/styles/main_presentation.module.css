@@ -7,7 +7,7 @@
 
 .welcome_title {
   margin: 0.4rem 0;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   letter-spacing: 0.5px;
 }
 
@@ -23,11 +23,10 @@
   text-decoration: none;
   border-radius: 0.3rem;
   letter-spacing: 0.5px;
-  font-size: 0.83rem;
+  font-size: 0.89rem;
   cursor: pointer;
   color: var(--white);
   background-color: var(--dark);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .btn_work:hover {
@@ -37,6 +36,7 @@
 
 .subtitle {
   margin: 1rem 0 1.5rem 0;
+  font-size: 1.1rem;
 }
 
 .image_wsp {

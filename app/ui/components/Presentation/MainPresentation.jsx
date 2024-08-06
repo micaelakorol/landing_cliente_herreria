@@ -15,7 +15,7 @@ const MainPresentation = () => {
             ¡Te damos la <span>bienvenida!</span>
           </h1>
           <p className={style.subtitle}>
-            a Herrería Javier. Contamos con más de 10 de experiencia en el
+            En Herrería Javier, contamos con más de 10 años de experiencia en el
             rubro. <br />
             Ofrecemos productos de calidad y alta durabilidad.
           </p>
