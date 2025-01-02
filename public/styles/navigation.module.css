@@ -1,0 +1,58 @@
+.container_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.6rem 1rem;
+}
+
+.btn_navigation {
+  background: var(--background);
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  border: none;
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  margin: 0 0.6rem;
+  font-size: 0.86rem;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+  rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.btn_navigation:hover {
+ background-color: var(--white);
+}
+
+.container_btn {
+  text-align: center;
+  padding: 0.7rem;
+}
+
+/* Estilos para pantallas más pequeñas (menos de 468px) */
+@media (max-width: 467px) {
+  .btn_navigation:first-child:before {
+    content: "Presupuestos";
+  }
+  .container_navigation {
+    flex-direction: column;
+  }
+  .container_btn {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .btn_navigation {
+    margin: 0.4rem 0;
+  }
+}
+
+/* Estilos para pantallas más grandes (468px o más) */
+@media (min-width: 468px) {
+  .btn_navigation:first-child:before {
+    content: "Solicitar Presupuesto";
+}
+}

@@ -1,0 +1,77 @@
+.container_presentation {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  place-items: center;
+  margin: 1rem 0 .5rem 0;
+}
+
+.welcome_title {
+  margin: 0.4rem 0;
+  font-size: 2.8rem;
+  letter-spacing: 0.5px;
+}
+
+.welcome_title span {
+  color: var(--yellow);
+  background: var(--background);
+}
+
+.btn_work {
+  border: none;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  letter-spacing: 0.5px;
+  font-size: 0.89rem;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--dark);
+}
+
+.btn_work:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: var(--bgDarkButton);
+}
+
+.subtitle {
+  margin: 1rem 0 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+.image_wsp {
+  margin: 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+.aboutHerreria {
+  margin: .5rem 1rem;
+  padding: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+  .container_presentation {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 468px) {
+  .container_presentation {
+    grid-template-columns: 1fr;
+  }
+  .working {
+    display: none;
+  }
+  .welcome_title {
+    font-size: 2.5rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .image_wsp{
+    margin: 3rem .5rem;
+    width: 30px;
+  }
+}
